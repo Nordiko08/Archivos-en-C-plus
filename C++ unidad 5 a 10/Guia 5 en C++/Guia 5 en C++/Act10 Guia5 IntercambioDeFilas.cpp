@@ -25,8 +25,8 @@ int main(int argc, char *argv[]) {
 	cin>>i;
 	cout<<"Introduce el numero de columna a intercambiar(1 a 4): ";
 	cin>>j;
-	i-=1;
-	j-=1;
+	i--;
+	j--;
 	for(int k=0; k<4; k++){
 		temp = matriz[i][k];
 		matriz[i][k]=matriz[j][k];
