@@ -9,8 +9,6 @@ int main(int argc, char *argv[]) {
 	int cont=0;
 	int auxAltura=0;
 	float promAltura=0;
-	string cantpers[500][2];///[0]APELLIDO Y NOMBRE [2]T.Sexo
-	int cantpersN[500][1];///[0]DNI
 	
 	
 	cout<<"Ingrese nombre y apellido de la personas a registrar: ";
