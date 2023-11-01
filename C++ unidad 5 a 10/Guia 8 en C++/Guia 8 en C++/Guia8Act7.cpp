@@ -29,15 +29,16 @@ int main(int argc, char *argv[]) {
 				numrandom[i][j]=rand()%1001;
 			}
 		}
-		for(int i=0;i<nfila;i++){
-			for(int j=0;j<ncolumna;j++){
-				cout<<numrandom[i][j]<<" ";
-			}
-			cout<<endl;
-		}
+		
 		for(int i=0;i<nfila;i++){
 			for(int j=0;j<ncolumna;j++){
 				archivo<<numrandom[i][j]<<" ";
+			}
+			archivo<<endl;
+		}
+		for(int i=0;i<nfila;i++){
+			for(int j=0;j<ncolumna;j++){
+				cout<<numrandom[i][j]<<" ";
 			}
 			cout<<endl;
 		}
